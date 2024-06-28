@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Contenedor{
+    width: 950px;
+    height: 800px;
+    background-image: url("../imagenes/fondo.jpg");
+    margin: 0 auto;
+}
+#Cabecera {
+    width: 950px;
+    height: 104px;
+    background-image: url(../imagenes/superior.jpg);
+}
+#Menu{
+    width: 850px;
+    height: 32px;
+    background-image: url("../imagenes/barramenu.jpg");
+    margin: 0 auto;
+}
+#Menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 5px 40px;
+}
+#Menu ul li {
+    float: left;
+    padding: 0 30px;
+    display: block;
+}
+#Menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#Menu ul li a:hover{
+    color: azure;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: rgb(147, 19, 51);
+}
+#Banner{
+    width: 850px;
+    height: 237px;
+    margin: 0 auto;
+    background-image: url(../imagenes/banner.jpg);
+}
+#Contenido{
+width: 850px;
+height: 350px;
+margin: 0 auto;
+background-color: rgb(255, 255, 255);
+}
+#Lizquierdo{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(248, 233, 233);
+    float: left;
+}
+#Lderecho{
+    width: 630px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.FormatoTable{
+    width: 177px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(128, 126, 126);
+    background-color: rgb(242, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.Titulotable{
+    text-align: center;
+    font-weight: bolder;
+}
+#Lizquierdo Table a{
+    text-decoration: none;
+    color: rgb(143, 128, 128);
+}
+#Lizquierdo Table tr{
+    background-color: rgb(237, 234, 235);
+    height: 25px;
+}
+#Lizquierdo Table tr:hover{
+    background-color: rgb(239, 112, 139);
+    height: 25px;
+}
+#Lizquierdo Table tr a:hover{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#Lizquierdo img{
+    margin: 10px 0 10px 10px;
+}
+#Lderecho h1{
+    text-align: center;
+    margin-top: 10px;
+    color: brown;
+}
+.Resaltar{
+    background-color: rgb(165, 42, 42);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+}
+#Lderecho table img{
+    width: 208px;
+    height: 116px;
+ }
+#Pie{
+    width: 950px;
+    height: 75px;
+    clear:both;
+    background-color: rgb(248, 233, 233);
+    margin: 0 auto;
+}
